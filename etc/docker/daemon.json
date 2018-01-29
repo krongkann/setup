@@ -1,0 +1,9 @@
+{
+  "hosts": ["tcp://0.0.0.0:2376", "unix:///var/run/docker.sock"],
+  "labels": ["angs-host=krongkan"],
+  "graph": "/docker",
+  "tlsverify": true,
+  "tlscacert": "/etc/docker/ca.crt",
+  "tlscert": "/etc/docker/krongkan-vm.crt",
+  "tlskey": "/etc/docker/krongkan-vm.key"
+}
